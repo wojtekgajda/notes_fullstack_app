@@ -6,7 +6,10 @@ import SaveIcon from '@mui/icons-material/Save';
 
 export const Note = (props) => {
     const [editing, setEditing] = useState(false)
-    const [editedNote, setEditedNote] = useState({})
+    const [editedNote, setEditedNote] = useState({
+        title: props.title,
+        content: props.content
+    })
 
     const handleEdit = (e) => {
         e.preventDefault()
