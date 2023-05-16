@@ -91,7 +91,9 @@ form.create-note {
     box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 form.create-note input,
-form.create-note textarea {
+form.create-note textarea,
+.mutableNote input,
+.mutableNote textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -100,7 +102,7 @@ form.create-note textarea {
     font-family: inherit;
     resize: none;
 }
-form.create-note button {
+form.create-note button{
     position: absolute;
     right: 18px;
     bottom: -18px;

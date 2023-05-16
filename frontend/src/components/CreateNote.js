@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import AddIcon from '@mui/icons-material/Add';
-import axios from "axios";
 
 export const CreateNote=({getNote}) =>{
     const [note, setNote] = useState({
